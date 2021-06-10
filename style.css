@@ -20,12 +20,13 @@
 body {
   font-size: 15px;
   background-color: var(--very-light-gray);
+  height: 100%;
 }
 
 .cards-container {
   display: flex;
   flex-direction: column;
-  margin: 10rem auto;
+  margin: 5rem auto;
   justify-content: center;
   align-items: center;
 }
@@ -114,15 +115,15 @@ button {
 }
 
 .attribution {
-  font-family: var(--primary-font);
-  color: var(--transparent-white);
+  font-family: var(--lexend-deca);
+  color: #333;
   font-size: 13px;
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
 .attribution a {
-  color: var(--soft-violet);
+  color: var(--bright-orange);
   text-decoration: none;
 }
 
