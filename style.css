@@ -20,7 +20,10 @@
 body {
   font-size: 15px;
   background-color: var(--very-light-gray);
-  justify-content: end;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .cards-container {
@@ -149,5 +152,14 @@ button {
   .card-3 {
     border-bottom-left-radius: 0;
     border-top-right-radius: var(--radius);
+  }
+
+  .attribution {
+    position: absolute;
+    top: 90;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 }
